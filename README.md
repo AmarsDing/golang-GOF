@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-02 22:44:03
- * @LastEditTime: 2020-09-02 22:51:26
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-02 22:54:17
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \golang-GOF\README.md
 -->
@@ -66,7 +66,7 @@ MVC 模式（MVC Pattern）
 
 # 设计模式之间的关系
 
-https://github.com/AmarsDing/notebook/tree/master/resource/the-relationship-between-design-patterns.jpg
+![avatar](https://github.com/AmarsDing/golang-GOF/tree/master/resource/the-relationship-between-design-patterns.jpg)
 
 # 设计模式的六大原则
 
