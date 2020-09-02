@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-02 22:44:03
- * @LastEditTime: 2020-09-02 23:19:14
+ * @LastEditTime: 2020-09-02 23:25:15
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \golang-GOF\README.md
@@ -9,16 +9,16 @@
 
 # golang-GOF
 
-# golang 设计模式
+## golang 设计模式
 
-> 根据设计模式的参考书 Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素） 中所提到的，总共有 23 种设计模式。
+根据设计模式的参考书 Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素） 中所提到的，总共有 23 种设计模式。
 
 ### 这些模式可以分为三大类：
 
-> 创建型模式（Creational Patterns）
-> 结构型模式（Structural Patterns）
-> 行为型模式（Behavioral Patterns）
-> 另一类设计模式：J2EE 设计模式
+1. 创建型模式（Creational Patterns）
+2. 结构型模式（Structural Patterns）
+3. 行为型模式（Behavioral Patterns）
+4. 另一类设计模式：J2EE 设计模式
 
 #### 1 创建型模式
 
@@ -63,11 +63,20 @@
 #### 4 J2EE 模式
 
 这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。
--MVC 模式（MVC Pattern） -业务代表模式（Business Delegate Pattern） -组合实体模式（Composite Entity Pattern） -数据访问对象模式（Data Access Object Pattern） -前端控制器模式（Front Controller Pattern） -拦截过滤器模式（Intercepting Filter Pattern） -服务定位器模式（Service Locator Pattern） -传输对象模式（Transfer Object Pattern） -下面用一个图片来整体描述一下设计模式之间的关系：
+
+- MVC 模式（MVC Pattern）
+- 业务代表模式（Business Delegate Pattern）
+- 组合实体模式（Composite Entity Pattern）
+- 数据访问对象模式（Data Access Object Pattern）
+- 前端控制器模式（Front Controller Pattern）
+- 拦截过滤器模式（Intercepting Filter Pattern）
+- 服务定位器模式（Service Locator Pattern）
+- 传输对象模式（Transfer Object Pattern）
+- 下面用一个图片来整体描述一下设计模式之间的关系：
 
 # 设计模式之间的关系
 
-![avatar][base64str]
+![designer](https://github.com/AmarsDing/golang-GOF/blob/master/resource/the-relationship-between-design-patterns.jpg)
 
 # 设计模式的六大原则
 
