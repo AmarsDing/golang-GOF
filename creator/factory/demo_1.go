@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-01 21:14:58
- * @LastEditTime: 2020-09-01 21:59:52
+ * @LastEditTime: 2020-09-02 22:13:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \golang-GOF\creator\factory\demo_1.go
@@ -17,29 +17,29 @@ type Product interface {
 
 // 产品实例一
 
-type product1 struct {
+type Product1 struct {
 	name string
 }
 
-func (p1 *product1) SetName(name string) {
+func (p1 *Product1) SetName(name string) {
 	p1.name = name
 }
 
-func (p1 *product1) GetName() string {
+func (p1 *Product1) GetName() string {
 	return p1.name
 }
 
 // 产品实例二
 
-type product2 struct {
+type Product2 struct {
 	name string
 }
 
-func (p2 *product2) SetName(name string) {
+func (p2 *Product2) SetName(name string) {
 	p2.name = name
 }
 
-func (p2 *product2) GetName() string {
+func (p2 *Product2) GetName() string {
 	return p2.name
 }
 
@@ -55,12 +55,13 @@ const (
 type ProductFactory struct {
 }
 
+// Create 1
 func (pf ProductFactory) Create(productType ProductType) Product {
 	switch productType {
 	case p1:
-		return &product1{}
+		return &Product1{}
 	case p2:
-		return &product2{}
+		return &Product2{}
 	default:
 		return nil
 	}
